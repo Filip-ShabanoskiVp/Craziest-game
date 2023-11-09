@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D0BE5C0-F17D-4AD9-8B8E-4772711326FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Crazy_Game</RootNamespace>
+    <AssemblyName>Crazy Game</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Ph03nyx-Super-Mario-Yoshi.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyDoc.cs" />
+    <Compile Include="FireBall.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameOver.Designer.cs">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GamePlay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GamePlay.Designer.cs">
+      <DependentUpon>GamePlay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="How to play.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="How to play.Designer.cs">
+      <DependentUpon>How to play.cs</DependentUpon>
+    </Compile>
+    <Compile Include="myEnemy.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Quiting game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quiting game.Designer.cs">
+      <DependentUpon>Quiting game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Score.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameOver.resx">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GamePlay.resx">
+      <DependentUpon>GamePlay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="How to play.resx">
+      <DependentUpon>How to play.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiting game.resx">
+      <DependentUpon>Quiting game.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black_and_red_maze_1___wide_by_ingostan_d2g86kv-fullview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soundtrack.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pixels-drawing-yoshi-17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playerRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playerLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soundOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soundOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OriginalnaPlayerDown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TransparentedDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TransparenterUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playerUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playerDownProbna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playerDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MovingKeyboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mazePlayGame.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TransparentedBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ph03nyx-Super-Mario-Yoshi.ico" />
+    <None Include="Resources\Dead.wav" />
+    <None Include="Resources\Buldog.png" />
+    <None Include="Resources\transparent3.png" />
+    <None Include="Resources\transparent2.png" />
+    <None Include="Resources\finale.png" />
+    <None Include="Resources\imageedit_19_3953060623.gif" />
+    <None Include="Resources\156054033477799310.gif" />
+    <None Include="Resources\transparented.gif" />
+    <None Include="Resources\coin.gif" />
+    <None Include="Resources\enemyLeft.png" />
+    <None Include="Resources\MLSS+BM_Art_-_Fawful.png" />
+    <None Include="Resources\floor.jpg" />
+    <None Include="Resources\brickk.jpg" />
+    <None Include="Resources\red-brick.png" />
+    <None Include="Resources\Transparented.png" />
+    <None Include="Resources\EkkkstraSmall.jpg" />
+    <None Include="Resources\MMMMMMORE.jpg" />
+    <None Include="Resources\moreSmaller.jpg" />
+    <None Include="Resources\rsz_firebal-uplSmaller.jpg" />
+    <None Include="Resources\fire-left.jpg" />
+    <None Include="Resources\fire-right.jpg" />
+    <None Include="Resources\fire-down.jpg" />
+    <None Include="Resources\fireball.jpg" />
+    <None Include="Resources\kisspng-download-fireball-5a7bb3be5b1c79.5976097715180563823732.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

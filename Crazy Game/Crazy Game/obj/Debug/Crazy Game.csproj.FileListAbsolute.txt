@@ -1,0 +1,14 @@
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\bin\Debug\Crazy Game.exe.config
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\bin\Debug\Crazy Game.exe
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\bin\Debug\Crazy Game.pdb
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\obj\Debug\Crazy Game.csprojAssemblyReference.cache
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\obj\Debug\Crazy_Game.Properties.Resources.resources
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\obj\Debug\Crazy Game.csproj.GenerateResource.cache
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\obj\Debug\Crazy Game.csproj.CoreCompileInputs.cache
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\obj\Debug\Crazy Game.exe
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\obj\Debug\Crazy Game.pdb
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\obj\Debug\Crazy_Game.Form1.resources
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\obj\Debug\Crazy_Game.Quiting_game.resources
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\obj\Debug\Crazy_Game.GameOver.resources
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\obj\Debug\Crazy_Game.How_to_play.resources
+C:\Users\FILIP\source\repos\vizuelno programiranje proektna\Crazy Game\Crazy Game\obj\Debug\Crazy_Game.GamePlay.resources
